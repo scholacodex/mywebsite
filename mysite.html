@@ -3,24 +3,34 @@
     <head>
         <title>scholacodex</title> 
         <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="mysite.css">
     </head>
     
     <body>
-        <header class="banner">
-            <h1>Schola Choi</h1>
-            <h3>Web Developer</h3>
-        </header>
-    
+        
+    <header class="banner">
+        <h1>Schola Choi</h1>
+        <h3>Programmer</h3>
+   
+        
+<!--This is the dropdown menu-->
+    <div class="dropdown">
+      <button onmouseover="myFunction()" class="dropbtn">Menu</button>
+      <div id="myDropdown" class="dropdown-content">
+        <a href="#">Portfolio</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+<!--End dropdown menu-->
+    </header>      
+        
     <main>
-        <img src="Schola%20Choi.jpg">
         <section>
         <h2>Hi! I'm Schola.</h2>
         <p>I'm currently a student at <a href="http://www.learncodinganywhere.com">The Tech Academy</a>, a coding school in Portland, Oregon.</p>
         <p>I'm just getting started on my new career in computer programming.</p>
-        <p>Here, I'm  practicing html.</p>
-        <p>I love to learn and solve problems.</p><br>
-        <p>At my core, I'm an idealist.</p>
+        <p>I love to learn and solve problems.</p>
         <p>I want to use my skills to make the world a better place.</p>
         <p>Greener, healthier, more just.</p>
         </section>
@@ -44,5 +54,8 @@
             </ul>
         </nav>
     </footer>
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="mysite.js"></script>
 </body>
 </html>
